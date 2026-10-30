@@ -10,6 +10,9 @@ upstream:
   version:
     type: github_release
     repo: ferdium/ferdium-app
+    require_assets:
+      - asset: '^Ferdium\-linux\-.*\-amd64\.deb$'
+      - asset: '^Ferdium\-linux\-.*\-arm64\.deb$'
   notes:
     type: github_release
     repo: ferdium/ferdium-app
