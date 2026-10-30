@@ -16,6 +16,9 @@ upstream:
   notes:
     type: github_release
     repo: ferdium/ferdium-app
+  sponsor:
+  - name: Ferdium
+    url: https://opencollective.com/ferdium
 
 release:
   branch: master
